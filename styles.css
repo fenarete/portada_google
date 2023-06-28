@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #f2f2f2;
+  }
+
+  /* Estilos para el contenedor de la portada */
+  .google-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos para el logotipo de Google */
+  .google-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para el formulario de búsqueda */
+  .search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+
+  /* Estilos para el campo de entrada de texto */
+  .search-input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+
+  /* Estilos para el botón de búsqueda */
+  .search-button {
+    padding: 8px 16px;
+    border: none;
+    background: #f1f1f1;
+    color: #70757a;
+    cursor: pointer;
+  }
+
+  /* Estilos para el enlace "Me siento con suerte" */
+  .lucky-link {
+    margin-top: 10px;
+    color: #70757a;
+    text-decoration: none;
+  }
