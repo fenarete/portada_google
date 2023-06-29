@@ -1,8 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 100vh;
   margin: 0;
   background: white;
@@ -11,19 +10,32 @@ body {
 
   header{
     display: flex;
-    float: right;
+    justify-content: flex-end;
     cursor: pointer;
     flex-direction: row;
     flex-wrap: wrap;
-    float: right;
-    justify-content: space-around;
     color: #70757a;
   }
 
-  footer{
+  .footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background: #f1f1f1;
     padding: 8px 16px;
-    align-items: self-start;
+    align-items:flex-start;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: 0px;
+    color: #70757a;
+  }
+  .footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #f1f1f1;
+    padding: 8px 16px;
+    align-items:center;
     margin-bottom: 0px;
     margin-top: 0px;
     border: 0px;
@@ -43,6 +55,7 @@ body {
 
   /* Estilos para el logotipo de Google */
   .google-logo {
+    display: flex;
     width: 300px;
     height: auto;
     margin-bottom: 20px;
@@ -88,4 +101,23 @@ body {
     background: #f1f1f1;
     color: #70757a;
     cursor: pointer;
+  }
+
+  .nav{
+    list-style: none;
+    display: flex;
+  }
+
+  .nav_item{
+    margin-right: 10px;
+  }
+  .nav2{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav2_item{
+    margin-right: ;
+    margin-left: 5px;
   }
