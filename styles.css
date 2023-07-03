@@ -34,7 +34,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     background: #f1f1f1;
-    padding: 8px 16px;
+    padding: 0px 0px;
     align-items:center;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -50,7 +50,7 @@ body {
     padding: 20px;
     background: white;
     border-radius: 8px;
-    
+    flex: 1;
   }
 
   /* Estilos para el logotipo de Google */
@@ -108,7 +108,7 @@ body {
     display: flex;
   }
 
-  .nav_item{
+  .nav-item{
     margin-right: 10px;
   }
   .nav2{
@@ -117,7 +117,7 @@ body {
     justify-content: space-evenly;
   }
 
-  .nav2_item{
-    margin-right: ;
+  .nav2-item{
+    margin-right:5px;
     margin-left: 5px;
   }
